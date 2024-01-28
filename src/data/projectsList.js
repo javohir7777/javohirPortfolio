@@ -17,6 +17,7 @@ export const ProjectList = [
     link: "https://joxashopping.netlify.app",
     github: "github.com/javohir7777/online_shopping",
     domen: "joxashopping.netlify.app",
+    description: "Online shopping veorstka",
   },
   {
     name: "YouTube",
@@ -25,6 +26,7 @@ export const ProjectList = [
     link: "https://you-tube-inky.vercel.app/",
     github: "github.com/javohir7777/youTube/tree/main",
     domen: "you-tube-inky.vercel.app",
+    description: "YouTube clone",
   },
   {
     name: "Physics teacher",
@@ -33,6 +35,7 @@ export const ProjectList = [
     link: "https://javohirtecher1.netlify.app/",
     github: "github.com/javohir7777/Teacher1",
     domen: "javohirtecher1.netlify.app",
+    description: "Api is used. All data comes from the backend.",
   },
   {
     name: "Weather Today",
@@ -41,6 +44,8 @@ export const ProjectList = [
     link: "https://weather-seven-chi.vercel.app/",
     github: "github.com/javohir7777/weather",
     domen: "weather-seven-chi.vercel.app",
+    description: `1) You can find out what the weather is like. 
+    2) You can find out what the weather is like in other countries through search.`,
   },
   {
     name: "Api",
@@ -49,6 +54,8 @@ export const ProjectList = [
     link: "https://jsonplase.netlify.app",
     github: "github.com/javohir7777/jsApi",
     domen: "jsonplase.netlify.app",
+    description: `1) jsonplaceholder api used. 
+    2) Whichever button you press, it will output information related to that button.`,
   },
   {
     name: "Counter",
@@ -57,6 +64,9 @@ export const ProjectList = [
     link: "https://counteries.netlify.app",
     github: "github.com/javohir7777/countries",
     domen: "counteries.netlify.app",
+    description: `1) All country data comes from api. 
+    2) It is possible to do day - night. 
+    3) There are facilities such as the name of the country, the number of inhabitants, the continent where it is located, the capital. `,
   },
   {
     name: "Portfolio web site",
@@ -65,6 +75,7 @@ export const ProjectList = [
     link: "https://jovohirportfolio2.netlify.app/index.html",
     github: "github.com/javohir7777/portfolio_2",
     domen: "jovohirportfolio2.netlify.app",
+    description: `Web site veorstka.`,
   },
   {
     name: "Product",
@@ -73,6 +84,11 @@ export const ProjectList = [
     link: "https://javohir-products.netlify.app",
     github: "github.com/javohir7777/lessonReact-6",
     domen: "javohir-products.netlify.app",
+    description: `1) Login password:  UserName: javohir, password: 777. 
+    2) Enter information by filling out the form. 
+    3) Delete by pressing Delete. 
+    4) It is searched through Search. 
+    5) Average prices are determined. `,
   },
   {
     name: "Projects",
@@ -89,5 +105,9 @@ export const ProjectList = [
     link: "https://next-js-project-lovat-ten.vercel.app",
     github: "github.com/javohir7777/nextJsProject/tree/main",
     domen: "next-js-project-lovat-ten.vercel.app",
+    description: `1) The site is made in Next.js, the data comes from the backend. 
+    2) You can find out the newly released product, you can find out the product name, prices, picture, weight. 
+    3) By clicking on the name of the product in the category of products, all the products belonging to that product will be displayed. 
+    4) In the Product section, you can choose the product you need.`,
   },
 ];

@@ -26,12 +26,7 @@ const ProjectDisplay = () => {
               <div className="col-md-8">
                 <div className="card-body">
                   <h3 className="card-title">{project.name}</h3>
-                  <p className="card-text">
-                    The design of this project is very beautiful and responsive.
-                    This project was built using simple ReactJS codes and
-                    Bootstrap, Css was used for the design.It is built with easy
-                    and understandable functions for beginners.
-                  </p>
+                  <p className="card-text">{project.description}</p>
                   <div className="card-footer bg-transparent border-success">
                     <p className="fw-400">Technologies:</p>
                     {project.skills.map((item) => {
