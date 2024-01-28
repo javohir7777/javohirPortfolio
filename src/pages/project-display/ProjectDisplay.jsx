@@ -3,15 +3,13 @@ import { useParams } from "react-router-dom";
 import { ProjectList } from "../../data/projectsList";
 import { GitHub, InsertLink } from "@mui/icons-material";
 import "./ProjectDisplay.css";
+// import "./ProjectDisplay.scss";
 
 const ProjectDisplay = () => {
   const { id } = useParams();
   const project = ProjectList[id];
   return (
-    <div
-      className="container d-flex justify-content-center align-items-center mt-4"
-      style={{ height: "100vh" }}
-    >
+    <div className="container vh-100 d-flex justify-content-center align-items-center mt-4">
       <div className="row">
         <div className="col-md-12">
           <div className="card mb-3">
