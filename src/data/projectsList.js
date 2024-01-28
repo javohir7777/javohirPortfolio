@@ -105,9 +105,10 @@ export const ProjectList = [
     link: "https://next-js-project-lovat-ten.vercel.app",
     github: "github.com/javohir7777/nextJsProject/tree/main",
     domen: "next-js-project-lovat-ten.vercel.app",
-    description: `1) The site is made in Next.js, the data comes from the backend. 
-    2) You can find out the newly released product, you can find out the product name, prices, picture, weight. 
-    3) By clicking on the name of the product in the category of products, all the products belonging to that product will be displayed. 
-    4) In the Product section, you can choose the product you need.`,
+    //   description: `1) The site is made in Next.js, the data comes from the backend.
+    //   2) You can find out the newly released product, you can find out the product name, prices, picture, weight.
+    //   3) By clicking on the name of the product in the category of products, all the products belonging to that product will be displayed.
+    //   4) In the Product section, you can choose the product you need.`,
+    description: "",
   },
 ];
