@@ -36,7 +36,7 @@ const HomePage = () => {
               </Link>
             </div>
             <a
-              href="Javohir_Jumayev.pdf"
+              href="Javohir Jumayev.pdf"
               className="btn btn-outline-light fs-5 fw-bold mt-3"
               target="_blank"
             >
