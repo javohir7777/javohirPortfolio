@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../../data/projectsList";
 import { GitHub, InsertLink } from "@mui/icons-material";
@@ -64,6 +63,7 @@ const ProjectDisplay = () => {
                 className="fs-5 fw-bolder text-decoration-none"
                 href={project.link}
                 target="_blank"
+                rel="noreferrer"
               >
                 {project.domen}
               </a>
@@ -86,6 +86,7 @@ const ProjectDisplay = () => {
                 className="fs-5 fw-bolder text-decoration-none"
                 href={`https://${project.github}`}
                 target="_blank"
+                rel="noreferrer"
               >
                 {project.github}
               </a>

@@ -27,7 +27,7 @@ const Experience = () => {
               icon={<School />}
             >
               <h3 className="vertical-timeline-element-title">
-                Najot Ta'lim <br /> Tashkent, Uzbekistan
+                Najot Ta{"'"}lim <br /> Tashkent, Uzbekistan
               </h3>
               <p>React.js Course Diploma</p>
             </VerticalTimelineElement>
@@ -43,7 +43,7 @@ const Experience = () => {
                 Uzbekistan
               </h3>
 
-              <p> Bachelor's degree</p>
+              <p> Bachelor{"'"}s degree</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement

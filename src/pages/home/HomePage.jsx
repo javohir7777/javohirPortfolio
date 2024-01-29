@@ -22,7 +22,7 @@ const HomePage = () => {
             <h2> Hi, My name is Javohir</h2>
             <div className="prompt">
               <p>
-                I'm a software developer with a passion for learning and
+                I{"'"}m a software developer with a passion for learning and
                 creating.
               </p>
               <Link to="https://www.linkedin.com/in/javoxir-jumayev-01a91b235/">
