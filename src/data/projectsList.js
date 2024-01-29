@@ -5,7 +5,6 @@ import Energiyat from "../assets/Energiyat.png";
 import JsonPlace from "../assets/JsonPlace.png";
 import Counter from "../assets/Counter.png";
 import Product from "../assets/Product.png";
-import Port from "../assets/portfolio.png";
 import Projects from "../assets/Projects.png";
 import Api from "../assets/Api.png";
 
@@ -13,7 +12,7 @@ export const ProjectList = [
   {
     name: "Online Shopping",
     image: Capture,
-    skills: ["JavaScript", "Html", "Css"],
+    skills: ["Html", "Css", "JavaScript"],
     link: "https://joxashopping.netlify.app",
     github: "github.com/javohir7777/online_shopping",
     domen: "joxashopping.netlify.app",
@@ -38,7 +37,7 @@ export const ProjectList = [
     description: "Api is used. All data comes from the backend.",
   },
   {
-    name: "Weather Today",
+    name: "Weather today",
     image: Weather,
     skills: ["ReactJS", "CSS", "Bootstrap"],
     link: "https://weather-seven-chi.vercel.app/",
@@ -48,9 +47,9 @@ export const ProjectList = [
     2) You can find out what the weather is like in other countries through search.`,
   },
   {
-    name: "Api",
+    name: "Json place holder",
     image: JsonPlace,
-    skills: ["JavaScript", "Html", "CSS", "Bootstrap"],
+    skills: ["Html", "CSS", "Bootstrap", "JavaScript"],
     link: "https://jsonplase.netlify.app",
     github: "github.com/javohir7777/jsApi",
     domen: "jsonplase.netlify.app",
@@ -58,9 +57,9 @@ export const ProjectList = [
     2) Whichever button you press, it will output information related to that button.`,
   },
   {
-    name: "Counter",
+    name: "Counters",
     image: Counter,
-    skills: ["JavaScript", "Html", "Scss", "Bootstrap"],
+    skills: ["Html", "Scss", "Bootstrap", "JavaScript"],
     link: "https://counteries.netlify.app",
     github: "github.com/javohir7777/countries",
     domen: "counteries.netlify.app",
@@ -68,15 +67,7 @@ export const ProjectList = [
     2) It is possible to do day - night. 
     3) There are facilities such as the name of the country, the number of inhabitants, the continent where it is located, the capital. `,
   },
-  {
-    name: "Portfolio web site",
-    image: Port,
-    skills: ["JavaScript", "Html", "Css"],
-    link: "https://jovohirportfolio2.netlify.app/index.html",
-    github: "github.com/javohir7777/portfolio_2",
-    domen: "jovohirportfolio2.netlify.app",
-    description: `Web site veorstka.`,
-  },
+
   {
     name: "Product",
     image: Product,
