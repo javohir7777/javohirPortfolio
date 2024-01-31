@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
@@ -33,6 +33,12 @@ const Header = () => {
         <Link to="/"> Home</Link>
         <Link to="/projects"> Projects</Link>
         <Link to="/experience"> Experience</Link>
+        {/* <div className="language">
+          <select className="form-select">
+            <option value="eng">Eng</option>
+            <option value="uz">Uz</option>
+          </select>
+        </div> */}
       </div>
     </div>
   );
