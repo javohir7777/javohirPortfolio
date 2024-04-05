@@ -7,6 +7,7 @@ import Counter from "../assets/Counter.png";
 import Product from "../assets/Product.png";
 import Projects from "../assets/Projects.png";
 import Api from "../assets/Api.png";
+import TelegramBot from "../assets/TelegramBot.png";
 
 export const ProjectList = [
   {
@@ -66,6 +67,15 @@ export const ProjectList = [
     description: `1) All country data comes from api. 
     2) It is possible to do day - night. 
     3) There are facilities such as the name of the country, the number of inhabitants, the continent where it is located, the capital. `,
+  },
+  {
+    name: "Telegram bot",
+    image: TelegramBot,
+    skills: ["Html", "Css", "JavaScript"],
+    link: "https://interactiv-site.netlify.app/contact",
+    // github: "github.com/javohir7777/online_shopping",
+    domen: "interactiv-site.netlify.app/contact",
+    description: "Telegram bot",
   },
 
   {
