@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
-import { School } from "@mui/icons-material";
+import { School, Work } from "@mui/icons-material";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -20,6 +20,20 @@ const Experience = () => {
       ) : (
         <div className="experience" style={{ background: "#f0f0f0" }}>
           <VerticalTimeline lineColor="#3e497a">
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="2024 - to continue"
+              iconStyle={{ background: "#3e497a", color: "#fff" }}
+              icon={<Work />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                It Klaster Academy
+                <br /> Karshi, Uzbekistan
+              </h3>
+
+              <p>Frontend Mentor</p>
+            </VerticalTimelineElement>
+
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="2023 (May 10 - October 24)"
