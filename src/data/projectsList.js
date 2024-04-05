@@ -72,9 +72,9 @@ export const ProjectList = [
     name: "Telegram bot",
     image: TelegramBot,
     skills: ["Html", "Css", "JavaScript"],
-    link: "https://interactiv-site.netlify.app/contact",
+    link: "https://interactiv-site.netlify.app",
     github: "github.com/javohir7777",
-    domen: "interactiv-site.netlify.app/contact",
+    domen: "interactiv-site.netlify.app",
     description: "Telegram bot",
   },
 
