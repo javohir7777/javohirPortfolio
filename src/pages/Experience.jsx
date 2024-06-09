@@ -31,7 +31,7 @@ const Experience = () => {
                 <br /> Karshi, Uzbekistan
               </h3>
 
-              <p>Frontend Mentor</p>
+              <p>Frontend Mentor and Developer</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
