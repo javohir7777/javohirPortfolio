@@ -1,4 +1,5 @@
 import Capture from "../assets/Capture.png";
+import Game from "../assets/Game.png";
 import YouTube from "../assets/YouTube.png";
 import Weather from "../assets/Weather.png";
 import Energiyat from "../assets/Energiyat.png";
@@ -18,6 +19,15 @@ export const ProjectList = [
     github: "github.com/javohir7777/online_shopping",
     domen: "joxashopping.netlify.app",
     description: "Online shopping veorstka",
+  },
+  {
+    name: "Game club",
+    image: Game,
+    skills: ["Html", "Css", "JavaScript"],
+    link: "https://portfolio-part1-opal.vercel.app/",
+    github: "github.com/javohir7777/portfolioPart1",
+    domen: "portfolio-part1-opal.vercel.app",
+    description: "Game club",
   },
   {
     name: "YouTube",
