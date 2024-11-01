@@ -55,7 +55,7 @@ const HomePage = () => {
               </li>
 
               <li className="item">
-                <h2> Languages</h2>
+                <h2>Languages</h2>
                 <span>Javascript, C++</span>
               </li>
             </ol>

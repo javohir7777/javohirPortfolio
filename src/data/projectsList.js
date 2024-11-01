@@ -1,4 +1,4 @@
-import Capture from "../assets/Capture.png";
+import ITKLASTER from "../assets/IT-Klaster.png";
 import Game from "../assets/Game.png";
 import YouTube from "../assets/YouTube.png";
 import Weather from "../assets/Weather.png";
@@ -12,13 +12,13 @@ import TelegramBot from "../assets/TelegramBot.png";
 
 export const ProjectList = [
   {
-    name: "Online Shopping",
-    image: Capture,
-    skills: ["Html", "Css", "JavaScript"],
-    link: "https://joxashopping.netlify.app",
-    github: "github.com/javohir7777/online_shopping",
-    domen: "joxashopping.netlify.app",
-    description: "Online shopping veorstka",
+    name: "IT KLASTER",
+    image: ITKLASTER,
+    skills: ["Html", "Scss", "React.js"],
+    link: "https://it-klaster.uz/",
+    github: "github.com/javohir7777/it_klaster",
+    domen: "it-klaster.uz",
+    description: "IT KLASTER educational center",
   },
   {
     name: "Game club",
@@ -33,9 +33,9 @@ export const ProjectList = [
     name: "YouTube",
     image: YouTube,
     skills: ["React.js", "Scss", "Bootstrap"],
-    link: "https://you-tube-inky.vercel.app/",
-    github: "github.com/javohir7777/youTube/tree/main",
-    domen: "you-tube-inky.vercel.app",
+    link: "https://you-tube-ti4v.vercel.app/",
+    github: "github.com/javohir7777/You-Tube",
+    domen: "you-tube-ti4v.vercel.app",
     description: "YouTube clone",
   },
   {
