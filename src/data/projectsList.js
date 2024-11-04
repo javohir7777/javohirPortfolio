@@ -32,7 +32,7 @@ export const ProjectList = [
   {
     name: "YouTube",
     image: YouTube,
-    skills: ["React.js", "Scss", "Bootstrap"],
+    skills: ["Html", "Scss", "React.js"],
     link: "https://you-tube-ti4v.vercel.app/",
     github: "github.com/javohir7777/You-Tube",
     domen: "you-tube-ti4v.vercel.app",
