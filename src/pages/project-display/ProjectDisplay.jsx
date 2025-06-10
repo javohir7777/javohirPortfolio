@@ -47,16 +47,20 @@ const ProjectDisplay = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-12  bg-white mb-4" id="data-website">
+        <div
+          className="col-md-12  bg-white mb-4"
+          id="data-website"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+          }}
+        >
           <div className="row  mb-2">
-            <div className="col-md-4 fs-5 ms-2">
-              <span className="iconsvg">
-                <InsertLink />
-              </span>{" "}
-              Webiste Link:
-            </div>
+            <div className="col-md-4 fs-5 ms-2">Webiste Link:</div>
             <div
-              className="col-md-6 d-flex  align-items-center"
+              className="col-md-6 d-flex  align-items-center "
               id="project-link"
             >
               <a
@@ -65,19 +69,19 @@ const ProjectDisplay = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                {project.domen}
+                <InsertLink
+                  style={{
+                    fontSize: "30px",
+                    color: "black",
+                  }}
+                />
               </a>
             </div>
           </div>
         </div>
         <div className="col-md-12  bg-white mb-4" id="data-website">
           <div className="row bg-white">
-            <div className="col-md-4 fs-5 ms-2">
-              <span className="iconsvg">
-                <GitHub />
-              </span>{" "}
-              Github Source Code:
-            </div>
+            <div className="col-md-4 fs-5 ms-2">Github Source Code:</div>
             <div
               className="col-md-6 d-flex  align-items-center"
               id="project-link"
@@ -88,7 +92,12 @@ const ProjectDisplay = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                {project.github}
+                <GitHub
+                  style={{
+                    fontSize: "30px",
+                    color: "black",
+                  }}
+                />
               </a>
             </div>
           </div>
