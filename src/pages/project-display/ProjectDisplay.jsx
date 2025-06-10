@@ -47,16 +47,7 @@ const ProjectDisplay = () => {
             </div>
           </div>
         </div>
-        <div
-          className="col-md-12  bg-white mb-4"
-          id="data-website"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            width: "100%",
-          }}
-        >
+        <div className="col-md-12  bg-white mb-4" id="data-website">
           <div className="row  mb-2">
             <div className="col-md-4 fs-5 ms-2">Webiste Link:</div>
             <div
@@ -75,6 +66,7 @@ const ProjectDisplay = () => {
                     color: "black",
                   }}
                 />
+                <span className="mx-3">{project.link}</span>
               </a>
             </div>
           </div>
@@ -98,6 +90,7 @@ const ProjectDisplay = () => {
                     color: "black",
                   }}
                 />
+                <span className="mx-3">{project.github}</span>
               </a>
             </div>
           </div>
