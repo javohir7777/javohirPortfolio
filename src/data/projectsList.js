@@ -4,6 +4,8 @@ import ECommerce from "../assets/ECommerce.png";
 import Counter from "../assets/Counties.png";
 import CRUD from "../assets/Crud.png";
 import Beautix from "../assets/Beautix.png";
+import Haitov from "../assets/Haitov.png";
+
 import Projects from "../assets/Projects.png";
 import Api from "../assets/Api.png";
 
@@ -63,31 +65,32 @@ export const ProjectList = [
     image: Beautix,
     skills: ["React.js"],
     link: "https://beautix-rouge.vercel.app/",
-    github: "github.com/javohir7777/beautix",
+    github: "(GitHub Private)",
     domen: "beautix-rouge.vercel.app",
     description: `1)All data comes from the backend. 2) Login password. 3) Register. 
     4) Image upload. 5)Crud`,
   },
 
   {
-    name: "Projects",
-    image: Projects,
-    skills: ["React.js", "Scss", "Bootstrap"],
-    link: "https://my-projects-zeta-sable.vercel.app",
-    github: "github.com/javohir7777/myProjects",
-    domen: "my-projects-zeta-sable.vercel.app",
+    name: "Haitov",
+    image: Haitov,
+    skills: ["React.js"],
+    link: "https://www.haitov.uz/",
+    github: "(GitHub Private)",
+    domen: "haitov.uz",
+    description: `1) Usename: a Password: a 2) Backend data is coming. 3) Access is secured with authorized.`,
   },
-  {
-    name: "Products Api",
-    image: Api,
-    skills: ["Next.js", "Scss", "Bootstrap", "Ant Design"],
-    link: "https://next-js-project-lovat-ten.vercel.app",
-    github: "github.com/javohir7777/nextJsProject/tree/main",
-    domen: "next-js-project-lovat-ten.vercel.app",
-    //   description: `1) The site is made in Next.js, the data comes from the backend.
-    //   2) You can find out the newly released product, you can find out the product name, prices, picture, weight.
-    //   3) By clicking on the name of the product in the category of products, all the products belonging to that product will be displayed.
-    //   4) In the Product section, you can choose the product you need.`,
-    description: "",
-  },
+  // {
+  //   name: "Products Api",
+  //   image: Api,
+  //   skills: ["Next.js", "Scss", "Bootstrap", "Ant Design"],
+  //   link: "https://next-js-project-lovat-ten.vercel.app",
+  //   github: "github.com/javohir7777/nextJsProject/tree/main",
+  //   domen: "next-js-project-lovat-ten.vercel.app",
+  //   //   description: `1) The site is made in Next.js, the data comes from the backend.
+  //   //   2) You can find out the newly released product, you can find out the product name, prices, picture, weight.
+  //   //   3) By clicking on the name of the product in the category of products, all the products belonging to that product will be displayed.
+  //   //   4) In the Product section, you can choose the product you need.`,
+  //   description: "",
+  // },
 ];
