@@ -6,8 +6,6 @@ import CRUD from "../assets/Crud.png";
 import Beautix from "../assets/Beautix.png";
 import Haitov from "../assets/Haitov.png";
 
-import Projects from "../assets/Projects.png";
-import Api from "../assets/Api.png";
 
 export const ProjectList = [
   {
