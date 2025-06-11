@@ -29,10 +29,10 @@ export const ProjectList = [
   {
     name: "E-commerce",
     image: ECommerce,
-    skills: ["Html", "Css", "Bootstrap", "JavaScript"],
-    link: "https://e-commerce-three-kappa.vercel.app/products.html",
-    github: "github.com/javohir7777/E-commerce",
-    domen: "e-commerce-three-kappa.vercel.app",
+    skills: ["Html", "Scss", "JavaScript"],
+    link: "https://e-commerce-rt5e.vercel.app/",
+    github: "github.com/javohir7777/e-commerce",
+    domen: "e-commerce-rt5e.vercel.app/",
     description: `E-commerse online shopping project`,
   },
 
