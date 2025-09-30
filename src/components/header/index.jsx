@@ -2,8 +2,18 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
+import { useDispatch, useSelector } from "react-redux";
+import { langChange } from "../../redux/actions/languageAction";
 const Header = () => {
   const [expandNavbar, setExpandNavbar] = useState(false);
+  const { langType, language } = useSelector((state) => state.language);
+  const dispatch = useDispatch();
+
+  const handleLang = (e) => {
+    dispatch(langChange(e.target.value));
+  };
+
+  console.log(language);
 
   const location = useLocation();
   let prevScrollpos = window.pageYOffset;
@@ -33,12 +43,10 @@ const Header = () => {
         <Link to="/"> Home</Link>
         <Link to="/projects"> Projects</Link>
         <Link to="/experience"> Experience</Link>
-        {/* <div className="language">
-          <select className="form-select">
-            <option value="eng">Eng</option>
-            <option value="uz">Uz</option>
-          </select>
-        </div> */}
+        <select value={langType} onChange={handleLang}>
+          <option value="en">En</option>
+          <option value="uz">Uz</option>
+        </select>
       </div>
     </div>
   );
