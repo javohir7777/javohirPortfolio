@@ -1,6 +1,11 @@
 export const EN = {
-  home: "Home page",
-  counter: "Counter page",
-  posts: "Posts page",
-  count: "Count",
+  home: "Home",
+  projects: "Projects",
+  experience: "Experience",
+  myName: "Hello, My name is Javohir",
+  position:
+    "I'm a software developer with a passion for learning and creating.",
+  skill: "Skills",
+  download: "Download CV",
+  prLanguage: "Programming language",
 };

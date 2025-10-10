@@ -4,9 +4,12 @@ import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 
 import "./HomePage.css";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
+  const { language } = useSelector((state) => state.language);
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -19,12 +22,9 @@ const HomePage = () => {
       ) : (
         <div className="home">
           <div className="about">
-            <h2> Hi, My name is Javohir</h2>
+            <h2>{language.myName}</h2>
             <div className="prompt">
-              <p>
-                I{"'"}m a software developer with a passion for learning and
-                creating.
-              </p>
+              <p>{language.position}</p>
               <Link to="https://www.linkedin.com/in/javoxir-jumayev-01a91b235/">
                 <LinkedIn />
               </Link>
@@ -40,11 +40,11 @@ const HomePage = () => {
               className="btn btn-outline-light fs-5 fw-bold mt-3"
               target="_blank"
             >
-              Download CV
+              {language.download}
             </a>
           </div>
           <div className="skills">
-            <h1> Skills</h1>
+            <h1>{language.skill}</h1>
             <ol className="list">
               <li className="item">
                 <h2> Front-End</h2>
@@ -55,7 +55,7 @@ const HomePage = () => {
               </li>
 
               <li className="item">
-                <h2>Languages</h2>
+                <h2> {language.prLanguage}</h2>
                 <span>Javascript, C++</span>
               </li>
             </ol>

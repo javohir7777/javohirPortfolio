@@ -13,7 +13,6 @@ const Header = () => {
     dispatch(langChange(e.target.value));
   };
 
-  console.log(language);
 
   const location = useLocation();
   let prevScrollpos = window.pageYOffset;
@@ -40,9 +39,9 @@ const Header = () => {
         </button>
       </div>
       <div className="links">
-        <Link to="/"> Home</Link>
-        <Link to="/projects"> Projects</Link>
-        <Link to="/experience"> Experience</Link>
+        <Link to="/">{language.home}</Link>
+        <Link to="/projects">{language.projects}</Link>
+        <Link to="/experience">{language.experience}</Link>
         <select value={langType} onChange={handleLang}>
           <option value="en">En</option>
           <option value="uz">Uz</option>
