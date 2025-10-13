@@ -2,11 +2,11 @@ export const UZ = {
   home: "Bosh sahifa",
   projects: "Loyihalar",
   experience: "Ish tajriba",
-  myName: "Assalomu alaykum, Mening ismim Javohir",
+  myName: "Salom! Men Javohir",
   position:
     "Men o‘rganishga chanqoq va yaratishga ishtiyoqi baland dasturiy ta’minot ishlab chiquvchiman",
   skill: "Qobiliyatlar",
-  download: "CV-ni yuklab olish",
+  download: "Yuklab olish",
   prLanguage: "Dasturlash tili",
   myPrP: "Mening shaxsiy loyihalarim",
 };
