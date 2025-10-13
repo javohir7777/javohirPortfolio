@@ -5,7 +5,7 @@ import Counter from "../assets/Counties.png";
 import CRUD from "../assets/Crud.png";
 import Beautix from "../assets/Beautix.png";
 import Haitov from "../assets/Haitov.png";
-
+import Aqili from "../assets/aqilli-maktab.png";
 
 export const ProjectList = [
   {
@@ -77,6 +77,15 @@ export const ProjectList = [
     github: "(GitHub Private)",
     domen: "haitov.uz",
     description: `1) Usename: a Password: a 2) Backend data is coming. 3) Access is secured with authorized.`,
+  },
+  {
+    name: "Aqili maktab",
+    image: Aqili,
+    skills: ["React.js", "Ant.design", "Axios", "Redux-toolkit"],
+    link: "https://aqllimaktab.com/",
+    github: "(GitHub Private)",
+    domen: "aqllimaktab.com",
+    // description: `1) Usename: a Password: a 2) Backend data is coming. 3) Access is secured with authorized.`,
   },
   // {
   //   name: "Products Api",

@@ -8,4 +8,5 @@ export const UZ = {
   skill: "Qobiliyatlar",
   download: "CV-ni yuklab olish",
   prLanguage: "Dasturlash tili",
+  myPrP: "Mening shaxsiy loyihalarim",
 };

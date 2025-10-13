@@ -1,11 +1,13 @@
-import { Fragment,useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import Loading from "../../components/loading/Loading";
 import "./Projects.css";
 import { ProjectList } from "../../data/projectsList";
 import Cards from "../../components/card/Cards";
+import { useSelector } from "react-redux";
 
 const Projects = () => {
   const [loading, setLoading] = useState(true);
+  const { language } = useSelector((state) => state.language);
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -17,10 +19,7 @@ const Projects = () => {
         <Loading />
       ) : (
         <div className="container">
-          <h1 className="text-center mt-5 mb-5 fw-bold">
-            {" "}
-            My Personal Projects
-          </h1>
+          <h1 className="text-center mt-5 mb-5 fw-bold"> {language.myPrP}</h1>
           <div className="container d-flex justify-content-center align-items-center">
             <div className="row">
               {ProjectList.map((project, idx) => {

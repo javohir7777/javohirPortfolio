@@ -8,4 +8,5 @@ export const EN = {
   skill: "Skills",
   download: "Download CV",
   prLanguage: "Programming language",
+  myPrP: "My Personal Projects",
 };
