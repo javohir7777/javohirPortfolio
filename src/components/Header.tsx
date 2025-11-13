@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { Menu, X, Moon, Sun, Download } from "lucide-react";
 import { useThemeLanguage } from "./ThemeLanguageProvider";
 import { LanguageSelector } from "./LanguageSelector";
+import "./Header.css";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ export function Header() {
     { label: t("projects"), href: "#projects" },
     { label: t("education"), href: "#education" },
     { label: t("experience"), href: "#experience" },
-    { label: t("contact"), href: "#contact" }
+    { label: t("contact"), href: "#contact" },
   ];
 
   const scrollToSection = (href: string) => {
@@ -32,9 +33,11 @@ export function Header() {
   const downloadResume = () => {
     // Create resume content based on selected language
     const resumeContent = generateResumeContent(language);
-    const blob = new Blob([resumeContent], { type: 'text/plain;charset=utf-8' });
+    const blob = new Blob([resumeContent], {
+      type: "text/plain;charset=utf-8",
+    });
     const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.href = url;
     link.download = `Javokhir_Jumayev_Resume_${language.toUpperCase()}.txt`;
     document.body.appendChild(link);
@@ -46,13 +49,16 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-700 z-50 transition-colors">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <a href="#" className="text-slate-900 dark:text-white transition-colors">
-            {t("hero_name")}
+        <div className="flex items-center justify-between h-16 cssWidth">
+          <a
+            href="#"
+            className="text-slate-900 dark:text-white transition-colors"
+          >
+            <b>{t("hero_name")}</b>
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden md:flex items-center gap-1 gapO">
             {navItems.map((item, index) => (
               <Button
                 key={index}
@@ -63,7 +69,7 @@ export function Header() {
                 {item.label}
               </Button>
             ))}
-            
+
             {/* Download Resume Button */}
             <Button
               variant="ghost"
@@ -74,7 +80,7 @@ export function Header() {
             >
               <Download className="w-5 h-5" />
             </Button>
-            
+
             {/* Theme Toggle */}
             <Button
               variant="ghost"
@@ -82,7 +88,11 @@ export function Header() {
               onClick={toggleTheme}
               className="dark:text-slate-200"
             >
-              {theme === "light" ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+              {theme === "light" ? (
+                <Moon className="w-5 h-5" />
+              ) : (
+                <Sun className="w-5 h-5" />
+              )}
             </Button>
 
             {/* Language Selector */}
@@ -99,25 +109,33 @@ export function Header() {
             >
               <Download className="w-5 h-5" />
             </Button>
-            
+
             <Button
               variant="ghost"
               size="icon"
               onClick={toggleTheme}
               className="dark:text-slate-200"
             >
-              {theme === "light" ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+              {theme === "light" ? (
+                <Moon className="w-5 h-5" />
+              ) : (
+                <Sun className="w-5 h-5" />
+              )}
             </Button>
-            
+
             <LanguageSelector />
-            
+
             <Button
               variant="ghost"
               size="icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="dark:text-slate-200"
             >
-              {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              {isMenuOpen ? (
+                <X className="w-5 h-5" />
+              ) : (
+                <Menu className="w-5 h-5" />
+              )}
             </Button>
           </div>
         </div>
@@ -160,7 +178,7 @@ TILLAR
 O'zbek - Ona tili | Ingliz - Boshlang'ich | Rus - Boshlang'ich
 
 TEXNIK KO'NIKMALAR
-Scratch, Html, Css, Scss, Bootstrap, Material UI, Ant design, Javascript, C++, React, Redux, Redux Toolkit, Typescript, NextJs, Git, GitHub, Axios,
+Html, Css, Scss, Bootstrap, Material UI, Ant design, Javascript, C++, React, Redux, Redux Toolkit, Typescript, NextJs, Git, GitHub, Axios,
 
 LOYIHALAR
 
@@ -225,7 +243,7 @@ LANGUAGES
 Uzbek - Native | English - Elementary | Russian - Elementary
 
 TECHNICAL SKILLS
-Scratch, Html, Css, Scss, Bootstrap, Material UI, Ant design, Javascript, C++, React, Redux, Redux Toolkit, Typescript, NextJs, Git, GitHub, Axios,
+Html, Css, Scss, Bootstrap, Material UI, Ant design, Javascript, C++, React, Redux, Redux Toolkit, Typescript, NextJs, Git, GitHub, Axios,
 
 PROJECTS
 
@@ -290,7 +308,7 @@ Frontend разработчик с практическим опытом раб�
 Узбекский - Родной | Английский - Начальный | Русский - Начальный
 
 ТЕХНИЧЕСКИЕ НАВЫКИ
-Scratch, Html, Css, Scss, Bootstrap, Material UI, Ant design, Javascript, C++, React, Redux, Redux Toolkit, Typescript, NextJs, Git, GitHub, Axios,
+Html, Css, Scss, Bootstrap, Material UI, Ant design, Javascript, C++, React, Redux, Redux Toolkit, Typescript, NextJs, Git, GitHub, Axios,
 
 ПРОЕКТЫ
 
@@ -340,7 +358,7 @@ Frontend ментор и разработчик
 Cout company
 Frontend разработчик
 Карши, Узбекистан
-Май 2025`
+Май 2025`,
   };
 
   return content[language];
