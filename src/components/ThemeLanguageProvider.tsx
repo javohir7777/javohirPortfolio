@@ -11,7 +11,9 @@ interface ThemeLanguageContextType {
   t: (key: string) => string;
 }
 
-const ThemeLanguageContext = createContext<ThemeLanguageContextType | undefined>(undefined);
+const ThemeLanguageContext = createContext<
+  ThemeLanguageContextType | undefined
+>(undefined);
 
 const translations = {
   uz: {
@@ -26,11 +28,13 @@ const translations = {
     download_resume: "Rezyumeni Yuklab Olish",
     hero_name: "Javokhir Jumayev",
     hero_title: "Frontend Dasturchi",
-    hero_description: "React.js va zamonaviy UI kutubxonalari bilan tajribaga ega Frontend dasturchi. Foydalanuvchilarga qulay ilovalar yaratish va yangi texnologiyalarni o'rganishga ishtiyoqli.",
+    hero_description:
+      "React.js va zamonaviy UI kutubxonalari bilan tajribaga ega Frontend dasturchi. Foydalanuvchilarga qulay ilovalar yaratish va yangi texnologiyalarni o'rganishga ishtiyoqli.",
     view_projects: "Loyihalarni Ko'rish",
     contact_me: "Bog'lanish",
     about_title: "Men Haqimda",
-    about_description: "React.js va zamonaviy UI kutubxonalari bilan tajribaga ega Frontend dasturchi. Foydalanuvchilarga qulay ilovalar yaratish va yangi texnologiyalarni o'rganishga ishtiyoqli.",
+    about_description:
+      "React.js va zamonaviy UI kutubxonalari bilan tajribaga ega Frontend dasturchi. Foydalanuvchilarga qulay ilovalar yaratish va yangi texnologiyalarni o'rganishga ishtiyoqli.",
     clean_code: "Toza Kod",
     clean_code_desc: "Toza va samarali kod yozishga e'tibor beraman",
     modern_design: "Modern Dizayn",
@@ -40,7 +44,7 @@ const translations = {
     skills_title: "Texnik Ko'nikmalar",
     skills_description: "Men ishlagan texnologiyalar va asboblar",
     frontend: "Frontend",
-    backend: "Backend",
+    backend: "Backend hamkorlik",
     tools: "Vositalar",
     projects_title: "Loyihalar",
     projects_description: "Men ustida ishlagan ba'zi loyihalar",
@@ -65,11 +69,14 @@ const translations = {
     ecommerce_title: "E-Commerce",
     ecommerce_desc: "E-commerce onlayn xarid qilish loyihasi",
     crud_title: "CRUD",
-    crud_desc: "Backend'dan ma'lumotlarni oladi. Messages sahifasidagi formani to'ldirib, ma'lumotlaringiz Telegram botga yuboriladi.",
+    crud_desc:
+      "Backend'dan ma'lumotlarni oladi. Messages sahifasidagi formani to'ldirib, ma'lumotlaringiz Telegram botga yuboriladi.",
     haitov_title: "Haitov.uz",
-    haitov_desc: "Backend ma'lumotlari kelmoqda. Kirish himoyalangan. Login: Username: a Password: a",
+    haitov_desc:
+      "Backend ma'lumotlari kelmoqda. Kirish himoyalangan. Login: Username: a Password: a",
     crm_title: "Aqlli-maktab CRM",
-    crm_desc: "React.js, Ant.design, Axios, Redux-toolkit. Platforma uchun sahifalar, komponentlar va interfeys yaratdim.",
+    crm_desc:
+      "React.js, Ant.design, Axios, Redux-toolkit. Platforma uchun sahifalar, komponentlar va interfeys yaratdim.",
     // Education
     najot_talim: "Najot ta'lim",
     course_react: "Kurs: React.js",
@@ -86,7 +93,7 @@ const translations = {
     teamwork: "Jamoada Ishlash",
     proactive: "O'rganish va Savollar Berishda Faol",
     sociable: "Muloqotchan",
-    dont_give_up: "Taslim Bo'lmaslik"
+    dont_give_up: "Taslim Bo'lmaslik",
   },
   en: {
     portfolio: "Portfolio",
@@ -100,11 +107,13 @@ const translations = {
     download_resume: "Download Resume",
     hero_name: "Javokhir Jumayev",
     hero_title: "Frontend Developer",
-    hero_description: "Frontend developer with hands-on experience in React.js and modern UI libraries. Passionate about building user-friendly applications and continuously learning new technologies.",
+    hero_description:
+      "Frontend developer with hands-on experience in React.js and modern UI libraries. Passionate about building user-friendly applications and continuously learning new technologies.",
     view_projects: "View Projects",
     contact_me: "Contact Me",
     about_title: "About Me",
-    about_description: "Frontend developer with hands-on experience in React.js and modern UI libraries. Passionate about building user-friendly applications and continuously learning new technologies.",
+    about_description:
+      "Frontend developer with hands-on experience in React.js and modern UI libraries. Passionate about building user-friendly applications and continuously learning new technologies.",
     clean_code: "Clean Code",
     clean_code_desc: "I focus on writing clean and efficient code",
     modern_design: "Modern Design",
@@ -114,7 +123,7 @@ const translations = {
     skills_title: "Technical Skills",
     skills_description: "Technologies and tools I work with",
     frontend: "Frontend",
-    backend: "Backend",
+    backend: "Backend Integration",
     tools: "Tools",
     projects_title: "Projects",
     projects_description: "Some of the projects I've worked on",
@@ -139,11 +148,14 @@ const translations = {
     ecommerce_title: "E-Commerce",
     ecommerce_desc: "E-commerce online shopping project",
     crud_title: "CRUD",
-    crud_desc: "It fetches data from the backend. By filling out the form on the Messages page, your data will be sent to the Telegram bot.",
+    crud_desc:
+      "It fetches data from the backend. By filling out the form on the Messages page, your data will be sent to the Telegram bot.",
     haitov_title: "Haitov.uz",
-    haitov_desc: "Backend data is coming. Access is secured with authorized. Login password: Username: a Password: a can be accessed.",
+    haitov_desc:
+      "Backend data is coming. Access is secured with authorized. Login password: Username: a Password: a can be accessed.",
     crm_title: "Aqlli-maktab CRM",
-    crm_desc: "React.js, Ant.design, Axios, Redux-toolkit. Developed pages, components, and user interface for the platform.",
+    crm_desc:
+      "React.js, Ant.design, Axios, Redux-toolkit. Developed pages, components, and user interface for the platform.",
     // Education
     najot_talim: "Najot ta'lim",
     course_react: "Course: React.js",
@@ -160,7 +172,7 @@ const translations = {
     teamwork: "Teamwork",
     proactive: "Proactive in Learning and Asking Questions",
     sociable: "Sociable",
-    dont_give_up: "Don't give up"
+    dont_give_up: "Don't give up",
   },
   ru: {
     portfolio: "Портфолио",
@@ -174,11 +186,13 @@ const translations = {
     download_resume: "Скачать Резюме",
     hero_name: "Джавохир Джумаев",
     hero_title: "Frontend Разработчик",
-    hero_description: "Frontend разработчик с практическим опытом работы с React.js и современными UI библиотеками. Увлечён созданием удобных приложений и постоянным изучением новых технологий.",
+    hero_description:
+      "Frontend разработчик с практическим опытом работы с React.js и современными UI библиотеками. Увлечён созданием удобных приложений и постоянным изучением новых технологий.",
     view_projects: "Смотреть Проекты",
     contact_me: "Связаться",
     about_title: "Обо мне",
-    about_description: "Frontend разработчик с практическим опытом работы с React.js и современными UI библиотеками. Увлечён созданием удобных приложений и постоянным изучением новых технологий.",
+    about_description:
+      "Frontend разработчик с практическим опытом работы с React.js и современными UI библиотеками. Увлечён созданием удобных приложений и постоянным изучением новых технологий.",
     clean_code: "Чистый Код",
     clean_code_desc: "Я уделяю внимание написанию чистого и эффективного кода",
     modern_design: "Современный Дизайн",
@@ -188,7 +202,7 @@ const translations = {
     skills_title: "Технические Навыки",
     skills_description: "Технологии и инструменты, с которыми я работаю",
     frontend: "Frontend",
-    backend: "Backend",
+    backend: "Работа с Backend",
     tools: "Инструменты",
     projects_title: "Проекты",
     projects_description: "Некоторые проекты, над которыми я работал",
@@ -213,11 +227,14 @@ const translations = {
     ecommerce_title: "E-Commerce",
     ecommerce_desc: "Проект интернет-магазина",
     crud_title: "CRUD",
-    crud_desc: "Получает данные с бэкенда. Заполнив форму на странице Messages, ваши данные будут отправлены в Telegram бот.",
+    crud_desc:
+      "Получает данные с бэкенда. Заполнив форму на странице Messages, ваши данные будут отправлены в Telegram бот.",
     haitov_title: "Haitov.uz",
-    haitov_desc: "Данные с бэкенда поступают. Доступ защищён. Логин: Username: a Password: a",
+    haitov_desc:
+      "Данные с бэкенда поступают. Доступ защищён. Логин: Username: a Password: a",
     crm_title: "Aqlli-maktab CRM",
-    crm_desc: "React.js, Ant.design, Axios, Redux-toolkit. Разработал страницы, компоненты и интерфейс для платформы.",
+    crm_desc:
+      "React.js, Ant.design, Axios, Redux-toolkit. Разработал страницы, компоненты и интерфейс для платформы.",
     // Education
     najot_talim: "Najot ta'lim",
     course_react: "Курс: React.js",
@@ -234,18 +251,22 @@ const translations = {
     teamwork: "Командная работа",
     proactive: "Активность в обучении и вопросах",
     sociable: "Общительность",
-    dont_give_up: "Не сдаваться"
-  }
+    dont_give_up: "Не сдаваться",
+  },
 };
 
-export function ThemeLanguageProvider({ children }: { children: React.ReactNode }) {
+export function ThemeLanguageProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const [language, setLanguageState] = useState<Language>("uz");
   const [theme, setThemeState] = useState<Theme>("light");
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language") as Language;
     const savedTheme = localStorage.getItem("theme") as Theme;
-    
+
     if (savedLanguage) setLanguageState(savedLanguage);
     if (savedTheme) {
       setThemeState(savedTheme);
@@ -269,7 +290,9 @@ export function ThemeLanguageProvider({ children }: { children: React.ReactNode 
   };
 
   return (
-    <ThemeLanguageContext.Provider value={{ language, setLanguage, theme, setTheme, t }}>
+    <ThemeLanguageContext.Provider
+      value={{ language, setLanguage, theme, setTheme, t }}
+    >
       {children}
     </ThemeLanguageContext.Provider>
   );
@@ -278,7 +301,9 @@ export function ThemeLanguageProvider({ children }: { children: React.ReactNode 
 export function useThemeLanguage() {
   const context = useContext(ThemeLanguageContext);
   if (!context) {
-    throw new Error("useThemeLanguage must be used within ThemeLanguageProvider");
+    throw new Error(
+      "useThemeLanguage must be used within ThemeLanguageProvider"
+    );
   }
   return context;
 }

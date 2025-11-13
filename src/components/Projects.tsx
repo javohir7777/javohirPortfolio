@@ -10,6 +10,7 @@ import { ExternalLink, Github } from "lucide-react";
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useThemeLanguage } from "./ThemeLanguageProvider";
+import { aqlliMaktab, crud, eCommerce, haitov } from "./assets";
 
 export function Projects() {
   const { t } = useThemeLanguage();
@@ -18,8 +19,9 @@ export function Projects() {
     {
       title: t("ecommerce_title"),
       description: t("ecommerce_desc"),
-      image:
-        "https://images.unsplash.com/photo-1677214467820-ab069619bbb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ258ZW58MXx8fHwxNzYyOTkyMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: eCommerce,
+      // image:
+      //   "https://images.unsplash.com/photo-1677214467820-ab069619bbb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ258ZW58MXx8fHwxNzYyOTkyMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
       demoLink: "https://e-commerce-rt5e.vercel.app/",
       githubLink: "https://github.com/javohir7777/e-commerce",
@@ -28,8 +30,9 @@ export function Projects() {
     {
       title: t("crud_title"),
       description: t("crud_desc"),
-      image:
-        "https://images.unsplash.com/photo-1666723043169-22e29545675c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b3Jrc3BhY2UlMjBkZXNrfGVufDF8fHx8MTc2MjkzOTIzN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: crud,
+      // image:
+      //   "https://images.unsplash.com/photo-1666723043169-22e29545675c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b3Jrc3BhY2UlMjBkZXNrfGVufDF8fHx8MTc2MjkzOTIzN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["HTML", "Bootstrap", "JavaScript"],
       demoLink: "https://crud-9ruj.vercel.app/",
       githubLink: "https://github.com/javohir7777/CRUD-",
@@ -38,8 +41,9 @@ export function Projects() {
     {
       title: t("haitov_title"),
       description: t("haitov_desc"),
-      image:
-        "https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYyOTQ5MzE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      // image:
+      //   "https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYyOTQ5MzE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: haitov,
       tags: ["React.js"],
       demoLink: "https://www.haitov.uz",
       githubLink: "",
@@ -48,8 +52,9 @@ export function Projects() {
     {
       title: t("crm_title"),
       description: t("crm_desc"),
-      image:
-        "https://images.unsplash.com/photo-1677214467820-ab069619bbb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ258ZW58MXx8fHwxNzYyOTkyMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      // image:
+      //   "https://images.unsplash.com/photo-1677214467820-ab069619bbb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ258ZW58MXx8fHwxNzYyOTkyMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: aqlliMaktab,
       tags: ["React.js", "Ant Design", "Redux Toolkit"],
       demoLink: "https://aqllimaktab.com/",
       githubLink: "",

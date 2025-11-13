@@ -25,6 +25,7 @@ export function Skills() {
       skills: [
         "Node.js",
         "Express",
+        "Python",
         "REST API",
         "Axios",
         "Fetch",
