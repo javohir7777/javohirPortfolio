@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { ArrowDown, Download } from "lucide-react";
 import { useThemeLanguage } from "./ThemeLanguageProvider";
+import { myImage, noImage } from "./assets";
 
 export function Hero() {
   const { t } = useThemeLanguage();
@@ -20,6 +21,17 @@ export function Hero() {
       </div>
 
       <div className="max-w-4xl mx-auto text-center space-y-8 relative z-10">
+        <div className="flex justify-center">
+          <img
+            className="object-cover rounded-full dark:bg-slate-800/50 rounded-2xl p-3 shadow-xl hover:shadow-2xl transition-all duration-300 backdrop-blur-sm border border-slate-200 dark:border-slate-700 hover:-translate-y-2"
+            src={myImage}
+            alt="no-img?"
+            style={{
+              width: "200px",
+              cursor: "pointer",
+            }}
+          />
+        </div>
         <div className="space-y-6">
           <div className="inline-block">
             <span className="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm backdrop-blur-sm border border-blue-200 dark:border-blue-800">
