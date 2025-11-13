@@ -21,8 +21,8 @@ export function Projects() {
       image:
         "https://images.unsplash.com/photo-1677214467820-ab069619bbb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ258ZW58MXx8fHwxNzYyOTkyMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-      demoLink: "#",
-      githubLink: "https://github.com",
+      demoLink: "https://e-commerce-rt5e.vercel.app/",
+      githubLink: "https://github.com/javohir7777/e-commerce",
       gradient: "from-blue-500 to-cyan-500",
     },
     {
@@ -31,8 +31,8 @@ export function Projects() {
       image:
         "https://images.unsplash.com/photo-1666723043169-22e29545675c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b3Jrc3BhY2UlMjBkZXNrfGVufDF8fHx8MTc2MjkzOTIzN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["HTML", "Bootstrap", "JavaScript"],
-      demoLink: "#",
-      githubLink: "https://github.com",
+      demoLink: "https://crud-9ruj.vercel.app/",
+      githubLink: "https://github.com/javohir7777/CRUD-",
       gradient: "from-green-500 to-emerald-500",
     },
     {
@@ -41,8 +41,8 @@ export function Projects() {
       image:
         "https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYyOTQ5MzE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["React.js"],
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://www.haitov.uz",
+      githubLink: "",
       gradient: "from-purple-500 to-pink-500",
     },
     {
@@ -51,8 +51,8 @@ export function Projects() {
       image:
         "https://images.unsplash.com/photo-1677214467820-ab069619bbb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXNpZ258ZW58MXx8fHwxNzYyOTkyMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["React.js", "Ant Design", "Redux Toolkit"],
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://aqllimaktab.com/",
+      githubLink: "",
       gradient: "from-amber-500 to-orange-500",
     },
   ];
@@ -136,14 +136,18 @@ export function Projects() {
                     asChild
                     className="flex-1 dark:border-slate-600 dark:text-slate-200 dark:hover:bg-slate-700 hover:border-blue-500 hover:text-blue-600 dark:hover:border-blue-500 dark:hover:text-blue-400 transition-all"
                   >
-                    <a
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Github className="w-4 h-4 mr-1" />
-                      {t("code")}
-                    </a>
+                    {project.githubLink ? (
+                      <a
+                        href={project.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Github className="w-4 h-4 mr-1" />
+                        {t("code")}
+                      </a>
+                    ) : (
+                      <p>🔒 GitHub private</p>
+                    )}
                   </Button>
                 </div>
               </CardContent>
