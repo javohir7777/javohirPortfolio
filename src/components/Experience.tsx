@@ -27,7 +27,7 @@ export function Experience() {
       position: t("frontend_developer"),
       location: t("location"),
       period: "November 2025",
-      color: "from-purple-500 to-pink-500",
+      color: "from-green-500 to-emerald-500 ",
       current: false,
     },
   ];
