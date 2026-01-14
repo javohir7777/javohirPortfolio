@@ -86,9 +86,12 @@ const translations = {
     // Experience
     it_klaster: "IT Klaster academy",
     frontend_mentor: "Frontend mentor va dasturchi",
+    cout_mentorYear: "Yanvar 2024 — Iyul 2025",
     cout_company: "Cout company",
+    cout_companyYear: "May 2025 — Noyabr 2025",
     frontend_developer: "Frontend dasturchi",
     ATS_company: "AUTOMATIC TECHNOLOGY SOLUTIONS LLC",
+    cout_ATSYear: "Noyabr 2025",
     // Soft Skills
     honesty: "Halollik",
     teamwork: "Jamoada Ishlash",
@@ -166,9 +169,13 @@ const translations = {
     // Experience
     it_klaster: "IT Klaster academy",
     frontend_mentor: "Frontend mentor and developer",
+    cout_mentorYear: "January 2024 - July 2025",
     cout_company: "Cout company",
+    cout_companyYear: "May 2025 - November 2025",
     frontend_developer: "Frontend developer",
     ATS_company: "AUTOMATIC TECHNOLOGY SOLUTIONS LLC",
+    cout_ATSYear: "November 2025",
+
     // Soft Skills
     honesty: "Honesty",
     teamwork: "Teamwork",
@@ -243,12 +250,15 @@ const translations = {
     tashkent_uz: "Ташкент, Узбекистан",
     tashkent_university: "Ташкентский университет информационных технологий",
     karshi_construction: "Каршинский строительный колледж",
-    ATS_company: "AUTOMATIC TECHNOLOGY SOLUTIONS LLC",
     // Experience
     it_klaster: "IT Klaster academy",
     frontend_mentor: "Frontend ментор и разработчик",
+    cout_mentorYear: "Январь 2024 — Июль 2025",
     cout_company: "Cout company",
+    cout_companyYear: "Май 2025 — Ноябрь 2025",
     frontend_developer: "Frontend разработчик",
+    ATS_company: "AUTOMATIC TECHNOLOGY SOLUTIONS LLC",
+    cout_ATSYear: "Ноябрь 2025",
     // Soft Skills
     honesty: "Честность",
     teamwork: "Командная работа",
