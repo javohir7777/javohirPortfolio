@@ -88,6 +88,7 @@ const translations = {
     frontend_mentor: "Frontend mentor va dasturchi",
     cout_company: "Cout company",
     frontend_developer: "Frontend dasturchi",
+    ATS_company: "AUTOMATIC TECHNOLOGY SOLUTIONS LLC",
     // Soft Skills
     honesty: "Halollik",
     teamwork: "Jamoada Ishlash",
@@ -167,6 +168,7 @@ const translations = {
     frontend_mentor: "Frontend mentor and developer",
     cout_company: "Cout company",
     frontend_developer: "Frontend developer",
+    ATS_company: "AUTOMATIC TECHNOLOGY SOLUTIONS LLC",
     // Soft Skills
     honesty: "Honesty",
     teamwork: "Teamwork",
@@ -241,6 +243,7 @@ const translations = {
     tashkent_uz: "Ташкент, Узбекистан",
     tashkent_university: "Ташкентский университет информационных технологий",
     karshi_construction: "Каршинский строительный колледж",
+    ATS_company: "AUTOMATIC TECHNOLOGY SOLUTIONS LLC",
     // Experience
     it_klaster: "IT Klaster academy",
     frontend_mentor: "Frontend ментор и разработчик",

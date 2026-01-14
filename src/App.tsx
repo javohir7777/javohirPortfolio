@@ -25,7 +25,7 @@ export default function App() {
           <Experience />
           <Contact />
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </ThemeLanguageProvider>
   );
