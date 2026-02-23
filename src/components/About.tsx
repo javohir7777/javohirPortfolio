@@ -1,7 +1,6 @@
 import { Card, CardContent } from "./ui/card";
 import { Code2, Palette, Zap } from "lucide-react";
 import { useThemeLanguage } from "./ThemeLanguageProvider";
-import { noImage } from "./assets";
 
 export function About() {
   const { t } = useThemeLanguage();

@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 import { ArrowDown, Download } from "lucide-react";
 import { useThemeLanguage } from "./ThemeLanguageProvider";
-import { myImage, noImage } from "./assets";
+import { myImage } from "./assets";
 
 export function Hero() {
   const { t } = useThemeLanguage();
