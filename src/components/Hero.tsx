@@ -51,14 +51,14 @@ export function Hero() {
         </div>
 
         <div className="flex gap-4 justify-center flex-wrap">
-          <Button
+          {/* <Button
             onClick={() => scrollToSection("projects")}
             size="lg"
             className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 hover:scale-105"
           >
             <Download className="w-5 h-5 mr-2" />
             {t("view_projects")}
-          </Button>
+          </Button> */}
           <Button
             onClick={() => scrollToSection("contact")}
             variant="outline"
@@ -76,23 +76,23 @@ export function Hero() {
               2+
             </div>
             <div className="text-sm text-slate-600 dark:text-slate-400 mt-1">
-              Years Exp
+              {t("years_exp")}
             </div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">
-              10+
+              4+
             </div>
             <div className="text-sm text-slate-600 dark:text-slate-400 mt-1">
-              Projects
+              {t("projects_exp")}
             </div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">
-              100%
+              700
             </div>
             <div className="text-sm text-slate-600 dark:text-slate-400 mt-1">
-              Satisfied
+              {t("happy_client")}
             </div>
           </div>
         </div>

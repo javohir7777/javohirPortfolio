@@ -28,6 +28,9 @@ const translations = {
     download_resume: "Rezyumeni Yuklab Olish",
     hero_name: "Javokhir Jumayev",
     hero_title: "Frontend Dasturchi",
+    years_exp: "Tajriba",
+    projects_exp: "Qatnashgan loyihalar soni",
+    happy_client: "Mamnum mijozlar",
     hero_description:
       "React.js va zamonaviy UI kutubxonalari bilan tajribaga ega Frontend dasturchi. Foydalanuvchilarga qulay ilovalar yaratish va yangi texnologiyalarni o'rganishga ishtiyoqli.",
     view_projects: "Loyihalarni Ko'rish",
@@ -111,6 +114,9 @@ const translations = {
     download_resume: "Download Resume",
     hero_name: "Javokhir Jumayev",
     hero_title: "Frontend Developer",
+    years_exp: "Experience",
+    projects_exp: "Completed Projects",
+    happy_client: "Happy Clients",
     hero_description:
       "Frontend developer with hands-on experience in React.js and modern UI libraries. Passionate about building user-friendly applications and continuously learning new technologies.",
     view_projects: "View Projects",
@@ -195,6 +201,9 @@ const translations = {
     download_resume: "Скачать Резюме",
     hero_name: "Джавохир Джумаев",
     hero_title: "Frontend Разработчик",
+    years_exp: "Опыт",
+    projects_exp: "Количество проектов",
+    happy_client: "Довольные клиенты",
     hero_description:
       "Frontend разработчик с практическим опытом работы с React.js и современными UI библиотеками. Увлечён созданием удобных приложений и постоянным изучением новых технологий.",
     view_projects: "Смотреть Проекты",
