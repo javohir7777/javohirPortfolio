@@ -70,7 +70,7 @@ export function Hero() {
         </div>
 
         {/* Stats or highlights */}
-        <div className="grid grid-cols-3 gap-6 max-w-2xl mx-auto pt-8">
+        <div className="grid grid-cols-3 gap-6 max-w-2xl mx-auto pt-8 mb-8">
           <div className="text-center">
             <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">
               2+

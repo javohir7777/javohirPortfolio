@@ -71,7 +71,7 @@ export function Header() {
             ))}
 
             {/* Download Resume Button */}
-            <Button
+            {/* <Button
               variant="ghost"
               size="icon"
               onClick={downloadResume}
@@ -79,7 +79,7 @@ export function Header() {
               title={t("download_resume")}
             >
               <Download className="w-5 h-5" />
-            </Button>
+            </Button> */}
 
             {/* Theme Toggle */}
             <Button

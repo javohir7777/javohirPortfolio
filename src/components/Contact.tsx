@@ -50,7 +50,7 @@ export function Contact() {
         </svg>
       ),
       label: "LinkedIn",
-      href: "https://linkedin.com/in/javoxir-jumayev-01a91b235/",
+      href: "https://www.linkedin.com/in/javokhir-jumayev-01a91b235/",
       color: "hover:text-blue-600 dark:hover:text-blue-400",
     },
   ];
