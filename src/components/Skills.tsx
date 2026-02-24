@@ -64,9 +64,9 @@ export function Skills() {
           <span className="inline-block px-4 py-2 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 rounded-full text-sm mb-4 backdrop-blur-sm border border-indigo-200 dark:border-indigo-800">
             🚀 {t("skills_title")}
           </span>
-          <h2 className="text-slate-900 dark:text-white mb-6 transition-colors">
+          {/* <h2 className="text-slate-900 dark:text-white mb-6 transition-colors">
             {t("skills_title")}
-          </h2>
+          </h2> */}
           <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto text-lg transition-colors">
             {t("skills_description")}
           </p>

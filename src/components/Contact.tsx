@@ -69,12 +69,12 @@ export function Contact() {
           <span className="inline-block px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-full text-sm mb-4 backdrop-blur-sm border border-green-200 dark:border-green-800">
             📬 {t("contact_title")}
           </span>
-          <h2 className="text-slate-900 dark:text-white mb-6 transition-colors">
+          {/* <h2 className="text-slate-900 dark:text-white mb-6 transition-colors">
             {t("contact_title")}
           </h2>
           <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto text-lg transition-colors">
             {t("contact_description")}
-          </p>
+          </p> */}
         </div>
 
         <Card className="mb-10 dark:bg-slate-800/50 dark:border-slate-700 shadow-2xl backdrop-blur-sm">

@@ -45,9 +45,9 @@ export function Experience() {
           <span className="inline-block px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-full text-sm mb-4 backdrop-blur-sm border border-green-200 dark:border-green-800">
             💼 {t("experience")}
           </span>
-          <h2 className="text-slate-900 dark:text-white mb-6 transition-colors">
+          {/* <h2 className="text-slate-900 dark:text-white mb-6 transition-colors">
             {t("experience")}
-          </h2>
+          </h2> */}
         </div>
 
         <div className="space-y-6">
